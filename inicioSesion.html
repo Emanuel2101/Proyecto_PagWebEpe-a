@@ -105,7 +105,7 @@
 
     <div class="login-container">
         <h2>Iniciar Sesión</h2>
-        <form action="#" method="POST">
+        <form>
             <label for="username">Nombre de usuario</label>
             <input type="text" id="username" name="username" required>
 
@@ -116,15 +116,7 @@
                 <a href="contraseña.html">¿Olvidaste tu contraseña?</a>
             </div>
 
-            <button id="miBoton">Entrar</button>
-
-            <script>
-                function redirigir() {
-                    window.location.href = "index.html";
-                }
-
-                document.getElementById("miBoton").onclick = redirigir;
-            </script>
+            <button type="submit">Entrar</button>
         </form>
         <div class="footer">
             ¿No tienes cuenta? <a href="registrarse.html">Regístrate</a>
